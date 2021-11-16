@@ -7,6 +7,13 @@
 body {
   background-color: #eae4e4;
 }
+h1,h2,p {
+  color: #4d4c4c;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 header {
   display: flex;
@@ -27,15 +34,15 @@ header {
 .name {
   text-transform: capitalize;
 }
-h1,
-h2,
-p {
-  color: #4d4c4c;
+
+
+main {
+  display: flex;
+  padding-top: 4.5rem;
 }
 img {
   width: 375px;
   height: 370px;
-
   border-radius: 50%;
 }
 .but {
@@ -52,10 +59,7 @@ img {
 .but button a {
   color: #eae4e4;
 }
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-}
+
 #r:hover {
   background-color: #c21d3b;
   color: rgb(238, 188, 184);
@@ -88,9 +92,7 @@ a {
   font-size: 14px;
   padding-top: 25px;
 }
-.content h1 {
-  font-weight: bold;
-}
+
 #intro {
   font-weight: bolder;
   font-size: 80px;
@@ -104,10 +106,7 @@ h2 {
   flex: 0.5;
   margin-left: 15rem;
 }
-main {
-  display: flex;
-  padding-top: 4.5rem;
-}
+
 
 footer {
   background-color: #e83556;
